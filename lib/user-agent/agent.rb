@@ -123,6 +123,8 @@ class Agent
     when /windows nt 5\.2/i      ; :'Windows 2003'
     when /windows nt 5\.1/i      ; :'Windows XP'
     when /windows nt 5\.0/i      ; :'Windows 2000'
+    when /iphone os (\d)_(\d)/i  ; :"iPhone OS X #{$1}.#{$2}"
+    when /ipad.*(\d)_(\d)/i      ; :"iPad OS X #{$1}.#{$2}"
     when /os x (\d+)[._](\d+)/i  ; :"OS X #{$1}.#{$2}"
     when /linux/i                ; :Linux
     when /wii/i                  ; :Wii
