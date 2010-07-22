@@ -32,6 +32,7 @@ describe Agent do
   test :Opera, '9.70', :Linux,        :gecko,   '20061208', 'Mozilla/5.0 (Linux i686 ; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.70'
   test :Opera, '9.64', :Linux,        :presto,  '2.1.1',    'Opera/9.64 (X11; Linux i686; U; Linux Mint; it) Presto/2.1.1'
   test :Opera, '9.00', :Wii,          :unknown,  nil,       'Opera/9.00 (Nintindo Wii; U; ; 103858; Wii Shop Channel/1.0; en)'
+  test :Opera, 'VZW',  :'Windows CE', :msie,    '6.0',  'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; PPC; 320x320) Opera VZW:SCH-i770'
 
   test :Chrome, '4.0.202.2',  :Linux,           :webkit, '532.0',  'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0'
   test :Chrome, '0.2.149.27', :'Windows 2003',  :webkit, '525.13', 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13'
@@ -51,5 +52,4 @@ describe Agent do
   test :Firefox, '3.1', :'Windows XP',  :gecko, '2009011606', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6pre) Gecko/2009011606 Firefox/3.1'
   test :Firefox, '3.0', :Linux,         :gecko, '2008062315', 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko/2008062315 (Gentoo) Firefox/3.0'
   test :Firefox, '2.0', :Linux,         :gecko, '20061202',   'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1) Gecko/20061202 Firefox/2.0'
-
 end

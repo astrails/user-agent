@@ -130,6 +130,7 @@ class Agent
     when /wii/i                  ; :Wii
     when /playstation 3/i        ; :Playstation
     when /playstation portable/i ; :Playstation
+    when /windows ce/i           ; :'Windows CE'
     else                         ; :Unknown
     end
   end
@@ -142,8 +143,8 @@ class Agent
     when /konqueror/i            ; :Konqueror
     when /chrome/i               ; :Chrome
     when /safari/i               ; :Safari
-    when /msie/i                 ; :IE
     when /opera/i                ; :Opera
+    when /msie/i                 ; :IE
     when /playstation 3/i        ; :PS3
     when /playstation portable/i ; :PSP
     when /firefox/i              ; :Firefox
