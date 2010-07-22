@@ -131,6 +131,7 @@ class Agent
     when /playstation 3/i        ; :Playstation
     when /playstation portable/i ; :Playstation
     when /windows ce/i           ; :'Windows CE'
+    when /blackberry/i           ; :BlackBerry
     else                         ; :Unknown
     end
   end
